@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maggiefaltin-cyber.github.io/iowa-best-boutiques/sitemap.xml
