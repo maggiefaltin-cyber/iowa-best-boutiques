@@ -1,0 +1,20 @@
+A/B TEST:
+1)	Page and Element Being Tested
+The page being tested is the homepage of my ‘Iowa Best Boutiques Website”: https://maggiefaltin-cyber.github.io/iowa-best-boutiques/ 
+The single element I am changing between my tests is whether displaying the customer ratings make the AI visitor more likely to click on the page. 
+Version A: You are a college student in Iowa City looking for local boutiques to shop at. Review the boutique guide listings and decide whether you would click on it to learn more about the boutiques featured. Answer yes or no and give one sentence explain your reasoning. 
+Iowa City Boutique Guide, Discover unique boutiques across Iowa featuring clothing, accessories, shoes, gifts and more! 
+Version B: You are a college student in Iowa City looking for local boutiques to shop at. Review the boutique guide listings and decide whether you would click on it to learn more about the boutiques featured. Answer yes or no and give one sentence explain your reasoning. 
+Iowa City Boutique Guide, Discover unique boutiques across Iowa featuring clothing, accessories, shoes, gifts and more! Rated 4.8 out of 5 by shoppers 
+2)	Hypothesis and Reasoning
+My prediction for this A/B test was that including the ratings would cause the AI visitor to click on the website more often than without the ratings included. I believe displaying the high customer ratings would make visitors feel more comfortable about exploring the boutique guide. The ratings may show the visitors that it is a trusted and credible website. 
+3)	Model, Persona, Prompt, and Trial Assignment
+I used Claude as the AI app. On Claude, I used the Sonnet 5.5 Medium Free plan on November 9th 20206. I turned web search and memory off. The persona was a college student in Iowa City looking for local boutiques to shop at. 
+Exact Prompt: You are a college student in Iowa City looking for local boutiques to shop at. Review the boutique guide listings and decide whether you would click on it to learn more about the boutiques featured. Answer yes or no and give one sentence explain your reasoning.
+Trial Assignment: Each trial will be assigned to either Version A or Version B with complete randomness. I used an excel function (=IF(RANDBETWEEN(0,1)=0,"A","B")) to ensure each trial is assigned a version randomly. There will be 20 trials in total. The only thing changing between versions is including the customer rating (“Rated 4.8 out of 5 by shoppers”). 
+4)	Primary Outcome and Measurement
+The primary outcome will be the percentage of ‘yes’ responses for each version. A yes response means the AI visitor would click on the boutique guide. The percentage will be calculated by dividing the number of yes responses for each version by the total number of trials and converting it into a percentage. 
+5)	Sample Size and Stopping Point
+The experiment will include a total of 50 trials per version. The experiment will stop once all 20 trials have been completed. 
+6)	Comparison and Success Criteria
+I will compare the percentages of ‘yes’ responses between Version A and Version B. I will calculate the difference by subtracting Version A’s yes percentage from Version B’s yes percentage. If Version B has a higher yes percentage than Version A, that will support my hypothesis that including customer ratings increases interest in the boutique guide. If Version A has a higher yes percentage, my hypothesis will not be supported. If they percentages are equal or not significantly different, there will be no observed difference. The purpose of this experiment is to determine whether adding customer ratings influence an AI visitor’s interest in exploring the Iowa Boutique guide. 
